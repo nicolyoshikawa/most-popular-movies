@@ -2,9 +2,9 @@
  * Design decisions I chose to make:
  * - throw an error if the starting ID is invalid (null, does not exist)
  * - throw an  error if the network is invalid (null, empty)
- * - throw an error if and ID in the friends list is invalid
- * @param {*} network
- * @param {*} startId
+ * - throw an error if an ID in the friends list is invalid
+ * @param {*} network - an array of user objects
+ * @param {*} startId - id of current user
  * @returns
  */
 const mostPopularMovie = function (network, startId) {
